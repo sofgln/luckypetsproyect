@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Shrikhand&display=swap');
+html{
+    height: 100%;
+}
+body{
+    background-color: #16161a;
+    height: 100%;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;;
+    height: 100%;
+}
+
+.recuadro-login{
+    width: 60%;
+    background:#644117 ;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 8px 13px 29px -2px rgba(0,0,0,0.78);
+-webkit-box-shadow: 8px 13px 29px -2px rgba(0,0,0,0.78);
+-moz-box-shadow: 8px 13px 29px -2px rgba(0,0,0,0.78);
+}
+.formlogin{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-inputs{
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+label{
+    color: #F2BA49;
+    margin-bottom: 5px;
+    width: 70%;
+}
+input{
+    border-radius: 20px;
+    width: 70%;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+}
+
+button{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 337px;
+    background-color: #F2BA49;
+    border: none;
+    font-family: "Montserrat";
+    color: #644117;
+    height: 40px;
+
+}
+
+.imgform {
+    width: 50%;
+    background-image:url(./assets/belitaa.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7em;
+    padding-top: 1em;
+    align-items: center;
+    
+}
+
+a{
+    margin-right: 1em;
+    margin-left: 1em;
+    color:#F2BA49 ;
+}
+
+button:hover{
+    background-color: #ED1C24;
+    color: #FFFAF0;
+}
+
+
+.si{
+    margin-right: 1em;
+    
+    color:#F2BA49 ;
+}
