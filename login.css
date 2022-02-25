@@ -108,3 +108,16 @@ button:hover{
     background-color: #ED1C24;
     color: #FFFAF0;
 }
+
+ /*tablet styles*/
+
+ @media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .recuadro-login{
+        width: 90%;
+
+    } 
+
+    button{
+        width: 325px;
+    }
+ }

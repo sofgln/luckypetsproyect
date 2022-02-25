@@ -391,6 +391,67 @@ body{
          justify-content: center;
      }
 
+    /*tablet styles*/
+
+    @media only screen and (min-width: 768px) and (max-width: 1279px) {
+        .nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 95px;
+
+        }
+
+        .maincontainer{
+            align-items: baseline;
+            justify-content: center;
+        }
+        main{
+            background-position: center;
+        }
+
+        .elementos{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo{
+            font-size: 30px;;
+        }
+        .uscontainer{
+            width: 80%;
+            height:75% ;
+            align-items: center;
+            flex-direction: column;
+        }
+        .textus{
+            width: 90%;
+            align-items: center;
+        }
+
+        h2{
+            justify-content: center;
+        }
+        .gato{
+            height: 60%;
+        }
+        .galeria{
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .card{
+            width: 25%;
+            
+        }
+        .footer{
+            height: 15vh;
+        }
+
+
+
+
+    }
+
      
 
     
