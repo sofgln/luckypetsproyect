@@ -13,6 +13,13 @@ html{
 body{
     overflow-x: hidden;
 }
+.btnlink{
+    color:#111111;
+    text-decoration: none;
+}
+.btnlink:hover{
+    color: #F2BA49;
+}
 
 .header{
     background-color: #644117;
