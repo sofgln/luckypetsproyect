@@ -546,7 +546,9 @@ body{
 /*small devices*/
 @media only screen and (min-width: 480px) and (max-width: 599px){
     .nav-menu{
+        display: none;
         overflow:hidden
+        
     }
     h1{
         font-size: 40px;
@@ -626,6 +628,7 @@ body{
     }
     .nav-menu{
         overflow: hidden;
+        display: none;
     }
     h1{
         font-size: 40px;
@@ -702,6 +705,7 @@ body{
     
      .nav-menu{
          overflow: hidden;
+         display: none;
      }
     h1{
     font-size: 35px;
@@ -786,6 +790,8 @@ h3{
 }
 
 }
+
+
 
 
      
