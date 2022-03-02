@@ -121,3 +121,81 @@ button:hover{
         width: 325px;
     }
  }
+
+ /*medium devices*/
+ @media only screen and (min-width: 600px) and (max-width: 767px) {
+     .recuadro-login{
+         width: 90%;
+     }
+     form{
+         align-items:flex-start;
+     }
+     button{
+         margin-left: 10px;
+         width: 250px;
+     }
+ }
+
+ /*small devices*/
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .recuadro-login{
+        width: 90%;
+    }
+    form{
+        align-items:flex-start;
+    }
+    button{
+        margin-left: 10px;
+        width: 190px;
+    }
+
+}
+
+/*phones*/
+@media only screen and (min-width: 425px) and (max-width: 479px){
+    .recuadro-login{
+        width: 99%;
+    }
+    form{
+        align-items:flex-start;
+    }
+    button{
+        margin-left: 10px;
+        width: 190px;
+
+
+    }
+    .links{
+        font-size: 10px;
+    }
+ 
+
+
+}
+
+/*small phones*/
+@media only screen and (min-width: 320px) and (max-width: 424px){ .recuadro-login{
+    width: 99%;
+}
+form{
+    align-items:flex-start;
+}
+button{
+    margin-left: 10px;
+    width: 130px;
+
+
+}
+.links{
+    font-size: 10px;
+    flex-direction: column;
+}
+input{
+    width: 60%;
+}
+label{
+    font-size: 12px;
+}
+
+
+}
