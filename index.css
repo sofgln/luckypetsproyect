@@ -405,7 +405,7 @@ body{
 
     /*tablet styles*/
 
-    @media only screen and (min-width: 481px) and (max-width: 768px) {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
         .nav{
             display: flex;
             justify-content: center;
@@ -470,7 +470,7 @@ body{
 
     }
     /*medium devices*/
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
       
 
 
@@ -543,7 +543,249 @@ body{
     }
 
 
-/
+/*small devices*/
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .nav-menu{
+        overflow:hidden
+    }
+    h1{
+        font-size: 40px;
+        margin:0;
+        text-align: center;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .maincontainer{
+        justify-content: center;
+    }
+    main{
+        background-position: center;
+    }
+
+    .nosotros{
+        height: 117vh;
+    }
+
+    .gatocontainer{
+        justify-content: center;
+        display: flex;
+        height: 50%;
+    }
+    .gato{
+        height: 100%;
+    }
+
+    .uscontainer{
+        height: 60%;
+        width: 90%;
+        flex-direction: column;
+    }
+    .textus{
+        margin-top: 30px;
+        width: 100%;
+        align-items: center;
+    }
+    .texto2{
+        padding: 0 20px;
+    }
+    h3{
+        font-size: 40px;
+    }
+
+    .galeria{
+        flex-direction: column;
+        height: 250vh;
+
+
+    }
+
+    .containercards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 50%;
+        margin: 30px 0;
+    }
+}
+
+/*phones*/
+@media only screen and (min-width: 425px) and (max-width: 479px){
+    .footer{
+        height: 30%;
+    }
+    .titlefooter{
+        font-size: 25px;
+    }
+    .copy{
+        font-size: 10px;
+    }
+    .text{
+        text-align: center;
+    }
+    .nav-menu{
+        overflow: hidden;
+    }
+    h1{
+        font-size: 40px;
+        margin:0;
+        text-align: center;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .maincontainer{
+        justify-content: center;
+    }
+    main{
+        background-position: center;
+    }
+
+    .nosotros{
+        height: 117vh;
+    }
+
+    .gatocontainer{
+        justify-content: center;
+        display: flex;
+        height: 50%;
+    }
+    .gato{
+        height: 100%;
+    }
+
+    .uscontainer{
+        height: 70%;
+        width: 90%;
+        flex-direction: column;
+    }
+    .textus{
+        margin-top: 5px;
+        width: 100%;
+        align-items: center;
+    }
+    .texto2{
+        padding: 0 20px;
+    }
+    h3{
+        font-size: 40px;
+    }
+
+    .galeria{
+        flex-direction: column;
+        height: 250vh;
+
+
+    }
+
+    .containercards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 50%;
+        margin: 30px 0;
+    }
+}
+/*small phones*/
+@media only screen and (min-width: 320px) and (max-width: 424px){
+
+    .titlefooter{
+        font-size: 20px;
+
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+    
+     .nav-menu{
+         overflow: hidden;
+     }
+    h1{
+    font-size: 35px;
+    margin:0;
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 40px;
+    font-size: 15px;
+}
+.text{
+    font-size: 15px;
+    text-align: center;
+}
+.maincontainer{
+    justify-content: center;
+}
+main{
+    background-position: center;
+}
+
+.nosotros{
+    height: 117vh;
+}
+
+.gatocontainer{
+    justify-content: center;
+    display: flex;
+    height: 50%;
+}
+.gato{
+    height: 80%;
+}
+h2{
+    padding: 0;
+    font-size: 20px;
+}
+
+.uscontainer{
+    height: 80%;
+    width: 90%;
+    flex-direction: column;
+}
+.textus{
+    margin-top: 5px;
+    width: 100%;
+    align-items: center;
+}
+.texto2{
+    padding: 0 20px;
+    font-size: 15px;
+}
+h3{
+    font-size: 30px;
+}
+
+.galeria{
+    flex-direction: column;
+    height: 250vh;
+
+
+}
+
+.containercards{
+    flex-direction: column;
+}
+
+.card{
+    width: 60%;
+    margin: 30px 0;
+}
+.iconn{
+    font-size: 20px;
+}
+.ff{
+    font-size: 10px;
+}
+
+.copy{
+    font-size: 10px;
+}
+
+}
 
 
      
